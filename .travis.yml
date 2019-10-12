@@ -1,5 +1,7 @@
 language: ruby
-before_install: gem install bundler -v '< 2'
+before_install:
+  - gem install bundler -v '< 2'
+  - gem install bundler -v '< 3'
 matrix:
   include:
     - rvm: 1.9.3
